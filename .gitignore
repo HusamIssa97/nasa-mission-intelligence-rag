@@ -1,0 +1,17 @@
+# Local / generated artifacts — do not submit junk
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.cursor/
+chroma_db/
+chroma_db_openai/
+*.log
+evaluation_results.json
+smoke_test_results.json
+.DS_Store

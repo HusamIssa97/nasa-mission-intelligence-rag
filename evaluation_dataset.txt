@@ -1,0 +1,56 @@
+# NASA Mission Intelligence RAG — Evaluation Dataset
+# At least 5 mission-relevant questions spanning multiple categories.
+# Format:
+#   CATEGORY: ...
+#   MISSION: ...
+#   Q: ...
+#   EXPECTED: ...
+#   ---
+
+CATEGORY: overview
+MISSION: apollo_11
+Q: What was the primary goal of the Apollo 11 mission?
+EXPECTED: Apollo 11's primary goal was to perform a crewed lunar landing and return safely to Earth, demonstrating that humans could land on the Moon and return.
+---
+
+CATEGORY: crew
+MISSION: apollo_11
+Q: Who were the crew members of Apollo 11?
+EXPECTED: The Apollo 11 crew was Neil Armstrong (Commander), Michael Collins (Command Module Pilot), and Buzz Aldrin (Lunar Module Pilot).
+---
+
+CATEGORY: timeline
+MISSION: apollo_11
+Q: When did Apollo 11 land on the Moon, and who first stepped onto the lunar surface?
+EXPECTED: Apollo 11 landed on the Moon on July 20, 1969. Neil Armstrong was the first person to step onto the lunar surface, followed by Buzz Aldrin.
+---
+
+CATEGORY: emergency
+MISSION: apollo_13
+Q: What major emergency occurred during the Apollo 13 mission?
+EXPECTED: Apollo 13 experienced an oxygen tank explosion in the service module, which caused loss of power and oxygen and forced the crew to abort the lunar landing and return to Earth using the lunar module as a lifeboat.
+---
+
+CATEGORY: technical
+MISSION: apollo_13
+Q: How did the Apollo 13 crew and Mission Control conserve power and keep the spacecraft habitable after the accident?
+EXPECTED: After the explosion, the crew powered down the command module and used the lunar module for life support and propulsion, carefully managing power, water, and lithium hydroxide canisters for CO2 removal under guidance from Mission Control.
+---
+
+CATEGORY: disaster analysis
+MISSION: challenger
+Q: What caused the Space Shuttle Challenger disaster, and when did it occur?
+EXPECTED: The Challenger (STS-51-L) disaster occurred on January 28, 1986, when the shuttle broke apart shortly after launch due to failure of an O-ring seal in a solid rocket booster, exacerbated by cold weather at launch.
+---
+
+CATEGORY: crew
+MISSION: challenger
+Q: Who was the teacher selected to fly on the Challenger STS-51-L mission?
+EXPECTED: Christa McAuliffe was the teacher selected for the Teacher in Space Project and flew aboard Challenger STS-51-L.
+---
+
+CATEGORY: technical
+MISSION: apollo_11
+Q: What were the names of the Apollo 11 command module and lunar module?
+EXPECTED: The Apollo 11 command module was named Columbia and the lunar module was named Eagle.
+---
